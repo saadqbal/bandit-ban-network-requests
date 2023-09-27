@@ -1,0 +1,2894 @@
+CHANGES
+=======
+
+* test case fix
+* averaging list fix
+* condition changed
+* merge develop
+* avg prep and experiment message
+* shutil.copy2 to shutil.copy
+* Trigger Pending Invitaitons on User SignUp
+* Update Logs
+* Re establish service bus connection on send message failure
+* Revert "Merge branch 'servicebus\_fix' into 'develop'"
+* formatted files
+* changes in logs and service bus
+* db connection pooling
+* broker connection retry on startup
+* black formatted
+* black formatted
+* black formatted
+* Black Update
+* streaming file download
+* Fix Tests
+* admin issue fix
+* Use Env Variable for celery settings
+* Prefetch Experiment FK refs admin
+* resume failed log added formatted
+* resume failed log added
+* exception logged
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* trigger build
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* trigger build pipeline
+* trigger build pipeline
+* changes done for form
+* added CONN\_MAX\_AGE and CONN\_HEALTH\_CHECKS
+* added CONN\_MAX\_AGE and CONN\_HEALTH\_CHECKS
+* added CONN\_MAX\_AGE
+* Add start date where we set experiment as running
+* Fixed requirements dependency
+* Trigger Post Training Bug Cleanup
+* updated celery to  5.3.4
+* fix: wrong cycle count
+* fix: wrong cycle count
+* fix: wrong cycle count
+* fix: wrong cycle count
+* added logs for cycleInsert to test averaging
+* added logs for cycleInsert to test averaging
+* Add Missing Stack Trace
+* Azure Insights Logs - Fix Request Logging, Disable Logging in Test and Local
+* Update Logs. Part 2
+* Update common.py
+* Experiment admin running cycle epochs fixed
+* Update Logs in global\_models
+* Readable format for experiment total time in admin
+* pause after retry added
+* Add additional fields to experiment admin
+* Add exp running state condition for running time in admin
+* Add torchvision in requirements
+* Experiment Admin running time fix
+* Separate Common Log Meta and Experiment Log Meta
+* chnges in path
+* migration issue
+* experiment model changes revert
+* changes for url
+* migration fixes added
+* Update Log Settings
+* test case fixed
+* test cases fixed
+* download model url changed
+* Update Experiment Admin
+* Commit to retrigger build
+* Update Log settings for prod
+* Fix max cycle param in stop experiment
+* Update Carbon Intensity Per Zone Per Hour
+* Add env info to azure app insights logs
+* test case fixed
+* Update Carbon Intensity Config
+* changes in job name
+* Update Requirements
+* Updated local.py
+* Add xrayjsonfiles folder and also ignore it's contents in .gitignore
+* Add Setup Instructions in ReadMe
+* Update Black
+* black format
+* image type foramatting of file bug fixed
+* Change Exception Logs to Error Logs
+* Handle Multiple calls to update\_carbon\_intensity
+* weights file added
+* queue full telemetry issue fixed
+* fix test cases and telemetry issue
+* test cases fix
+* test cases fixed
+* Update Electricity Maps API Keys
+* test case fixed
+* test case fixed
+* averaging o-d error
+* WIP: Update stg.py
+* Update stg.py
+* Update stg.py
+* model error fixed
+* model error fixed
+* model error fixed
+* test cases fixed
+* test cases fixed
+* formatted
+* milestone and check added for averaging
+* Replace Service Bus Logging with App Insights Logging, Logging Cleanup
+* Disable Propagate
+* Service Bus Logger Fixes
+* Add service bus logger to settings
+* Replace Azure Logger with Service Bus Logger
+* Exporter String
+* Update Requirements and add Test Log
+* Update .gitlab-ci.yml
+* Trying yet another thing
+* Custom Azure Logger
+* Update Log Tags
+* Updates
+* Azure Logger
+* trigger build pipeline
+* trigger build pipeline
+* Azure Insights Use Simple Formatter
+* Update Dev Log Settings
+* Monitoring Logs for Experiments
+* bug fix for formatted file
+* bug fix for formatted file
+* test cases fixed
+* test cases fixed
+* updated and tested mig
+* Register Experiment in Django Admin
+* model file formt code
+* link model dataset for pytorch
+* WIP: link model dataset for pytorch
+* WIP: link model dataset for pytorch
+* trigger pipeline
+* Update common.py
+* Update Azure Application Insights Settings
+* Update GitLab CI
+* Add DOWNLOADJSON\_PATH setting
+* Use DownloadJsonPath, Remove file after download
+* added ERROR level logs for azure monitor
+* Change Model JSON file storage Path, Prevent Delete on Download
+* Show EdgeDevice.v\_cpu\_cores in Admin
+* Show EdgeDevice.pue\_constant in Admin
+* Fix Circular Import
+* Update Test
+* Use Slug for CompetitionViewSet instead of ID
+* issue with full data experiment creation fixed
+* Cancel Final Submissions on Team Merge
+* Inference Final Submission as a Periodic Task
+* black format
+* test cases fixed for emperiment api
+* images\_per\_edge and subdataset datatype issue fixed
+* black format
+* WIP: fix temeletory queue
+* averaging: take images\_per\_edge from experiment if subdataset
+* averaging: take images\_per\_edge from experiment if subdataset
+* migration script for old exps
+* migration script for old exps
+* Update Electricity Maps API Keys
+* experiment serializer and migration
+* images\_per\_edge field in experiment
+* updated requirements
+* remove sentry traces
+* Update .gitlab-ci.yml file
+* Update dev.py
+* merged branch
+* airbus edge error
+* configure logs for azure monitor
+* configure logs for azure monitor
+* exlude test urls
+* updated requirements
+* WIP: azure monitor
+* Update Error Message Structure for Experiment Inference
+* Add Test
+* Add flag to determine if inference is captured or still a default value
+* Update Permission on Dataset
+* Update Inference Error Messages
+* Add migration for Competition.score\_preference
+* test case fixed
+* Block Inference on an experiment for same cycle
+* test case fixed
+* Block Inference on an experiment for same cycle
+* Capture Marketing Notification Consent
+* Capture Marketing Notification Consent
+* bug in cycle info fix
+* inference bug fixed
+* confusion matrix bug fix
+* error fix
+* cycle data deleted if cycle restarted
+* fix leaderboard rounding
+* logger for directory creation corrected
+* logger corrected
+* prevent duplicate team creation on a competition
+* confusion matrix
+* error in confusion matrix
+* Revert "Merge branch 'pytorch' into 'develop'"
+* test case fixed
+* formatted
+* confusion matrix logic updated
+* Black Formatting
+* Add Join Competition Action with Validation
+* torch weights download error
+* torch average weight missing error
+* cycle insert retry error
+* cycle insert retry error
+* error in loading model
+* fix prod gco2
+* Fix Pending Merger Notifications Filter
+* fix prod gco2, total time taken
+* averaging fix
+* v15 tasks
+* intitial flops, test fixes
+* intitial flops on user
+* intitial flops on user
+* intitial flops on user
+* v15 tasks
+* Add competition to notification
+* Allow super users to be invited to under preparation competitions
+* Add Team Invitation Admin
+* Private Competition Admin Bug Fix
+* Restrict adding people not belonging to host company for competitions under preparation
+* fix permissions on dataset
+* Invitation Bug Fix for Re Invite
+* fix competition add
+* Dataset Invitation Bug Fix
+* Fix: pretrained weights training
+* Feat: support ranks on leaderboard
+* formatted
+* test dataset bug fix
+* averaging changes
+* code cleanup
+* host company access on competition fixed
+* fixed team members access on experiment
+* fixed team members access on experiment
+* fixed high score on competition
+* Update Message for Max team Size
+* Invitaion Validation Updates
+* experiment list filters
+* test fixes
+* v14 updates
+* fixed test case
+* update page size to 5 for experiment list
+* Wip: download view support for pytorch
+* Notifications Bulk Mark as Read
+* fix settings
+* fix migrations
+* unread notification count on api
+* Add a field for competition rules template
+* fix invitation
+* fix inference celery task
+* fix notifications interactions and update invitations
+* fix notifications interactions and update invitations
+* fix notifications interactions and update invitations
+* Empty-Commit
+* fix notifications endpoint
+* fix notifications endpoint
+* Updated upload model
+* formatted
+* Updated upload model
+* formatted
+* Updated upload model
+* notification actions
+* Restrict Under Preparation Competitions
+* fix competition view
+* fix competition view
+* Bug Fix to created date in Competition
+* removed unncessary fields from competition
+* test cases fixed
+* test cases fixed
+* added message to notification
+* linking model error
+* added message to notification
+* Convert Competition View to ViewSet
+* removed multiple objects mixin
+* test cases fixed
+* test fixes
+* added test for creating notification on invite
+* notification feature fixes
+* fixed migration
+* delete migrations
+* Competition preparation
+* Competition preparation
+* fix tests
+* path corrected
+* Fix Update
+* changes in check model
+* Black Reformat
+* Add EDA PDF field in UserDataSet
+* feat: Notifications
+* fix requirements mac m1
+* fix requirements mac m1
+* fix requirements mac m1
+* fix requirement installation
+* feat: Notification
+* Empty-Commit
+* Empty-Commit
+* missing migration
+* field framework in experiment
+* email password fix
+* fix bugs
+* torch included in requirements
+* fix migrations
+* renamed envs
+* fix env settings
+* added subdataset size and test dataset size and env files
+* added subdataset size and test dataset size
+* fix env settings
+* added subdataset size and test dataset size
+* product v-11 changes
+* fix bugs
+* fix bugs
+* fix leaderboard info
+* fix leaderboard info
+* fix leaderboard info
+* fix leaderboard info, performance
+* fix leaderboard pagination
+* fix leaderboard pagination
+* fix pagination, limit user info, team info on dataset, add user to dataset in team invitation
+* Fix Team invitation Fix leaderboard sorting fix insert to leaderboard Fix Leaderboard permissions
+* fix team experiments query
+* fix leaderboard permissions
+* fix leaderboard permissions
+* fix experimemnt query
+* leaderboard permissions for teams
+* leaderboard permissions for teams
+* leaderboard permissions for teams
+* update inference on leaderboard
+* update inference on leaderboard
+* Competition FE support
+* Competition FE support
+* fix inference
+* fix inference
+* changed eta for inference task in case of non-final submission
+* code cleanup
+* code cleanup
+* experiments display on competition dataset
+* experiments display on competition dataset
+* experiments display on competition dataset
+* experiment inference enhancements, test fixes
+* experiment inference enhancements
+* experiment inference enhancements
+* Pause experiment bug fix
+* add competition title to exp if dataset is competition
+* add competition title to exp if dataset is competition
+* team name update
+* error migration fix
+* update ELECTRICITY\_MAPS\_AUTH\_KEY\_CHOICES
+* carbon intensity values on exp
+* competition FE support
+* unique Aggregate epoch
+* increase cycle counter on cycle creation
+* increase cycle counter on cycle creation
+* resume duplication removed
+* fail resume exp task if exp not running
+* post-training-fix, refactor trigger post training
+* post-training-fix, refactor trigger post training
+* post-training-fix, refactor trigger post training
+* post-training-fix, refactor trigger post training
+* post-training-fix, refactor trigger post training
+* post-training-fix, refactor trigger post training
+* duplication prevention not needed on exp listener
+* pop exp id from data
+* test performance, unify SB message cache
+* unique job name with cycle-no
+* test fixes
+* Duplicate message prevention, unique job name for resume/stop with cycle-no
+* fix resume exp
+* fix resume exp
+* user team id on competition view
+* user team id on competition view
+* competition invitation, team merger
+* test fixes
+* test fixes
+* test fixes
+* competition invitation, team merger
+* competition invitation, team merger, test fixes
+* competition invitation, team merger
+* competition invitation, team merger
+* competition invitation
+* test cases fixed
+* test cases fixed
+* formatted
+* test cases fixed
+* test pipeline
+* retrigger test pipeline
+* operation updated
+* operation updated
+* post training test case fixed
+* formmated
+* serialiser fixed
+* migration added
+* linkinr error fix
+* Support team creation on competition join
+* dp enabled
+* object dataset fix
+* differential privacy added
+* differential privacy added
+* post-training-fix, last epoch sequence
+* increase messages consumption
+* post-training enhancements
+* post-training enhancements
+* post-training enhancements
+* post-training enhancements
+* post-training enhancements
+* post-training enhancements
+* post-training enhancements
+* formatted
+* log path
+* test cases fixed
+* dataset builder for airbus changed
+* dataset\_util handled for new datasets
+* exception added
+* post-training enhancements
+* exception added
+* exception added
+* exception added
+* post-training enhancements
+* post-training enhancements
+* dump
+* added new dataset in check
+* post-training enhancements
+* post-training enhancements
+* post-training enhancements
+* test case fix
+* test case fix
+* updated dataset builder
+* send ack to all edges
+* image\_intent added
+* test case fix
+* enhance post training ack logging
+* save error
+* free memory on BE for weights averaging
+* formatted
+* error view fix
+* test cases fixed
+* trigger build
+* Aggregated cycle get view
+* migration error fixed
+* error in import fixed
+* migrations added
+* migrations added
+* update global meta for cancer & airbus
+* LOGS\_PATH added
+* trigger post training on cycle update
+* exp id in log
+* exp id in log
+* tests fixed
+* added migration
+* restart experiment on error
+* fix shutdown job
+* test case fixed
+* formatted
+* multiple cycle handle in task
+* restart edge on thread termination
+* update marked\_cycle\_for\_inference
+* update marked\_cycle\_for\_inference
+*  formatted
+* updated test case
+* migration fixed
+* multiple cycle per experiment logic
+* retry tasks for celery and signals
+* retry tasks for celery and signals
+* updated requirements
+* updated requirements
+* updated requirements
+* updated requirements
+* Add new directory
+* black format
+* flower proxy requirememts fix
+* flower proxy requirememts fix
+* flower proxy link
+* Support celery monitoring
+* Support celery monitoring
+* Support celery monitoring
+* Support celery monitoring
+* Support celery monitoring
+* Support celery monitoring
+* insert inference error
+* insert inference error
+* test\_metrics bug fixed
+* dataset parameters missing fixed
+* code cleanup
+* updated upperbound time for post-training
+* updated upperbound time for post-training
+* post-training enhancements
+* fixed: test dataset creation bug
+* post-training enhancements
+* celery loggers and retry
+* Revert "celery loggers and retry"
+* celery loggers and retry
+* celery loggers and retry
+* fix test post-training
+* post-training enhancements
+* fix NaN epoch, val\_loss value
+* SB from fix to exponential
+* process epoch info even on experiment completion
+* cycle aggregation logic updated
+* TEMP: upperbound time set to 100
+* updated upperbound time
+* increase upperbound time
+* pass extra info for upperbound time to edge
+* pass extra info for upperbound time to edge
+* test fixes
+* added migration
+* added migration
+* wait aggregate-cycle till last epoch is processed
+* bug hotfixes
+* bug hotfixes
+* bug hotfixes
+* bug hotfixes
+* bug hotfixes
+* bug hotfixes
+* bug hotfixes
+* bug hotfixes
+* test fixes
+* bug hotfixes
+* celery tasks update
+* celery tasks update
+* upperbound time update
+* shutdown job fix
+* post-training enhancements
+* post-training enhancements
+* post-training enhancements
+* check for custom loss removed
+* fix: Avoid duplicate messages, update edge on notify
+* fix: Avoid duplicate messages, update edge on notify
+* fix: Avoid duplicate messages, update edge on notify
+* fix: Avoid duplicate messages, update edge on notify
+* format black
+* changes on backend for checks on model
+* post-training enhancements
+* WIP: remove model checks
+* post-training enhancements
+* post-training enhancements
+* removing functional check from backend
+* post-training enhancements
+* increase max threads
+* removed accessible\_test\_file
+* madatory field error fix
+* updated loss and learning rate code while exp creation
+* loss function update
+* fix learningRate migration
+* updated serialiser formatted
+* updated serialiser
+* updated serialiser
+* updated serialiser
+* updated serialiser
+* updated learningrate
+* updated learningrate
+* learning rate error fix
+* free edge on experiment stop
+* migration merged
+* learning rate check removed
+* process multiple tasks
+* start experiment only from listener
+* notify edge on experiment completion
+* fix post-training processing
+* duplicate prevention time to 5
+* altered check model for learning rate
+* altered field learning rate
+* add exp to queue
+* competition landing page: set announced\_date on visibility set
+* competition landing page: set announced\_date on visibility set
+* competition landing page: set announced\_date on visibility set
+* competition landing page changes
+* competition landing page changes
+* competition landing page changes
+* listener connectivity enhancements
+* Updated MAX\_OCCUPIED\_THREADS to 50
+* listener connectivity enhancements
+* listener connectivity enhancements
+* fixed competition lables
+* WIP
+* WIP competition enhancement
+* WIP compettion view enhancement
+* WIP: competition card labels
+* WIP: competition card labels
+* WIP: competition card labels
+* remove update\_flops\_utilised from edge, add\_to\_queue fixed
+* remove update\_flops\_utilised from edge, add\_to\_queue fixed
+* sorting with test inference fields: accuracy,f1\_score,precision,recall
+* inference data in experiment deatils API
+* API for submit inference
+* fields added for inference submit
+* check constants
+* check for custom loss function
+* check for custom loss function
+* post-training-fix
+* psr fix
+* psr fix
+* remove redundent code in helloview
+* fix test cases: inference,trainingplan
+* black format
+* loss function WIP
+* remove empty dict for edges
+* experiment start bug
+* bug in linking
+* error in inference task fix
+* updating flatbuffers
+* updating tensorboard
+* updating tensorflow to version 2.11.0
+* updating tensorflow to version 2.11.0
+* duplicate request prevention/ set cache
+* format adn datasetutil error fix
+* upload api changes
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* data save error
+* formatted task
+* bug fix for inference final
+* formatted task
+* experimentid error fix
+* experimentid error fix
+* experimentid error fix
+* experimentid error fix
+* experimentid error fix
+* error fix in insert
+* logger corrected
+* logger corrected
+* feat: duplicate message/task prevention in listeners
+* feat: duplicate message/task prevention in listeners
+* feat: duplicate message/task prevention in listeners
+* parameters updated
+* inference edeg occupy
+* error in images id fixed
+* bug in image id api
+* error in imageid api
+* return if exception
+* error in inference task --> fix
+* formatted
+* made test dataset count dynamic as per dataset
+* formatted
+* test cases fixed for inference and update experiment
+* test case fix
+* updated upload method
+* updated upload method
+* merged
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* added comments
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* merged with develop
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* merged with develop
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+*  formatted
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* test case fix
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* cycle, epoch api -> listener, fixes post-training
+* post\_training api -> listener, fixes
+* post\_training api -> listener, fixes
+* post\_training api -> listener, fixes
+* post\_training api -> listener, fixes
+* post\_training api -> listener, fixes
+* post\_training api -> listener, fixes
+* post\_training api -> listener, fixes
+* post\_training api -> listener, fixes
+* post\_training api -> listener, fixes
+* post\_training api -> listener, fixes
+* post\_training api -> listener, fixes
+* post\_training api -> listener, fixes
+* post\_training api -> listener, fixes
+* test case for autonomous dataset in check model API
+* post\_training api -> listener, fixes
+* test case fixed
+* suggested changes
+* updated changes
+* fix post-training processing
+* fix post-training processing
+* test cases fixed
+* fix post-training message
+* scoring preference add in inference
+* run experiment if killed on edge
+* merged branch
+* post\_training api -> listener, test fixes
+* post\_training api -> listener, test fixes
+* post\_training api -> listener
+*  migration added
+*  error fix
+* post\_training api -> listener
+* test case for subdataset imageids
+* black format
+* test case for image ids API
+* updated test dataset logic code
+* test cases fixed
+* listener enhancements
+* refractor code
+* refractors added
+* AttributeError: This QueryDict instance is immutable
+* test case solved
+* migration added
+* merged dataset changes for test data
+* test data inference added for every api
+* imageids url enhanced for experiment inference
+* image ids API return test images for inference
+* image ids API return test images for inference
+* add inference experiments on service bus
+* add inference experiments on service bus
+* wip: add inference experiments on service bus
+* wip: add inference experiments on service bus
+* black
+* script to create and assign test data for old datasets
+* test case fixed
+* fix archives
+* fix archives
+* fix archives
+* fix archives
+* save test json files in dataset creation
+* fix queue number bug
+* fix update epoch bug
+* test case for dataset builder
+* test data added in dataset builder
+* resume on abort training api fix
+* black format
+* script for updating image\_intent as test for test data
+* resume running exps on backend if they were terminated on edges
+* image\_intent included for global meta data
+* added edge\_health connection string
+* fix: pagination
+* error fix model customise
+* new name error fix
+* copy model with new customisation formatted
+* copy model with new customisation
+* sorting fix
+* change model code added formatted and merged
+* change model code added
+* change model code added
+* added edge\_health queue connection string for stg
+* experiment status change fix
+* complete messages for notify queue
+* enhance edge health listener listener
+* enhance experiment listener
+* enhance experiment listener
+* enhance experiment listener
+* enhance experiment listener
+* recalculate total images count per edge on subdataset
+* start new experiments autometically
+* auto reload on error supported, defer unsuccessful messages in queue
+* fix experiment process
+* fix experiment process
+* migration error
+* fix experiment process
+* test case fixed
+*  merge conflict error
+* formatted
+* handled as per new json file
+* fix migration
+* code cleanup
+* done json file patch for old datasets included in migration
+* fix experiments queue
+* test
+* migration conflict fixed
+* patch for update of old datasets json file added
+* patch for update of old datasets json file added
+* fixed migration
+* patch for old dataset to update edge\_images\_per\_class
+* format
+* done sub dataset
+* edge\_images\_per\_class in json file
+* handled subdataset case
+* handled subdataset case
+* image ids format
+* formatted code
+* count correction for subdataset
+* edge health listener support for monitor
+* edge health listener support for monitor
+* bug for image\_type format
+* bug for image\_type format
+* bug for image\_type
+* edge health listener support for monitor
+* edge health listener support for monitor
+* edge health listener support for monitor
+* migration added
+* dataset classes error fixed in image ids
+* dataset classes error fixed in image ids
+* black format :(
+* done: arranging image ids for edge call
+* done: arranging image ids for edge call
+* fixed:test cases
+* image parameters added on server
+* userdataset updated, function to arrange imageids
+* Wip: arrange imageids on edges wrt images count
+* refactored experiment e2e process
+* refactored experiment e2e process
+* utilization states, update, create date dynamically
+* refactored experiment e2e process
+* refactored experiment e2e process
+* refactored experiment e2e process
+* formatted
+* error of mac os
+* fixed:test case
+* images\_per\_class in json
+* fix for no argument error
+* pycache file error format
+* pycache file error
+* test case fix
+* bug fixed
+* returning classes name in linkmodel API
+* returning classes name in linkmodel API
+* removed unneccessary file
+* adding field for image per class
+* flops update enhancement
+* file type added during upload and download
+* merge and formatted
+* final test working
+* service-bus listener, flops\_listener
+* celery tasks instead of schduled jobs
+* service-bus listener, flops\_listener
+* service-bus listener, flops\_listener
+* service-bus listener, test fixes
+* service-bus listener, experiments\_listener
+* generalise mymethod
+* black format
+* remove vgap\_accuracy check in background task
+* remove unneccesary refresh\_from\_db
+* fix: test case failing
+* fix: test case failing
+* Wip: test case failing
+* test fixes for celery
+* celery tasks instead of schduled jobs
+* Updated azure-servicebus 7.8.1
+* removing optimum cycle, vgap\_accuracy and vgap from getting updated in background task
+* gevent added
+* clean up
+* clean up
+* celery test fix
+* celery fix
+* support green AI
+* download counter support
+* download counter support
+* download counter support
+* download counter support
+* download counter support
+* CELERY\_QUEUE\_CONNECTION\_STR added
+* changed allowed hosts
+* migrations updated for cycle done
+* update experiments only if optimum cycle exists
+* update all old experiments parallel
+* update all old experiments parallel
+* sustainability matrix calculation on agg\_cycle availabability
+* sustainability matrix calculation on agg\_cycle availabability
+* update all old experiments parallel
+* update all old experiments parallel
+* update all old experiments parallel
+* update all old experiments parallel
+* removed extra query in epoch
+* update all old experiments on min-max update
+* serialiser updated
+* previous exp cycle done
+* cycle done for previous exp
+* cycle parameter in epoch
+* flops utilised bug fixed
+* celery queue added
+* flop utilized at experiment level
+* celery queue added
+* celery queue added
+* celery queue added
+* update all old experiments on min-max update
+* update all old experiments on min-max update
+* catching averaging weights
+* weighted averaging covered in test and averaging
+* changes in variable
+* green AI, run sustainable experiment
+* green AI, run sustainable experiments, unique image count
+* migration fixes
+* green AI, run sustainable experiments
+* green AI, run sustainable experiments
+* green AI, run sustainable experiments
+* green AI, run sustainable experiments
+* green AI, run sustainable experiments
+* error fix post training
+* fixed accuracy\_flops cal
+* test fixed
+* bug fixed for metric
+* adding estimated\_gco2 field in serializers
+* merge migrations
+* test case
+* WIP: estimated gco2
+* black format
+* celery mock commented in test
+* WIP: estimated gco2
+* metrics updated for experiment view
+* metrics updated for experiment view
+*  local setting
+* commented out task in averaging
+* test case fixed
+* bug fixed for acc\_gco2
+* test coverage done
+* update all old experiments on cycle update
+* update all old experiments on cycle update
+* update all old experiments on cycle update
+* update all old experiments on cycle update
+* fix test flops
+* removing ping,training, flops view
+* removing ping functions
+* test coverage imageids trainingview uploadview
+* updated serilaiser for optimum values
+* updated serilaiser for optimum values
+* sorting for v\_gap\_acc
+* migration for acc-gco2
+* new acc-gco2 metrics
+* coverage post training psr
+* coverage check model, model mixin
+* coverage check model, model mixin
+* test coverage check model and path for temp file changed
+* sorting vgap-acc metrics added
+* WIP: test coverage
+* WIP: test coverage
+* WIP: test coverage
+* WIP: test coverage
+* WIP: test coverage
+* added v\_gap\_acc to exp
+* added v\_gap\_acc to exp
+* newsletter emails validations
+* newsletter emails validations
+* precision gco2 patch for all old experiments
+* newsletter emails
+* newsletter emails
+* newsletter emails
+* add sustainability matrix
+* add sustainability matrix
+* add sustainability matrix
+* fixed: black format
+* fixed: test check model path issue
+* fixed: test check model
+* fixed: test check model
+* fixed: test check model
+* fixed: test check model
+* fixed: test check model
+* wip: test fixed
+* wip: test fixed
+* wip: test fixed
+* add sustainability matrix
+* wip: test fixed
+* wip: test cases
+* wip: test cases
+* wip: test cases
+* wip: test cases
+* wip: test cases
+* wip: test cases
+* wip: test cases
+* black bug fixed
+* black bug fixed
+* Wip: test cases
+* Wip: test cases
+* Wip: test cases
+* returning model\_name in check\_model API
+* returning model\_name in check\_model API
+* upload in checkmodel API
+* support v\_gap sorting
+* support v\_gap for experiment
+* support v\_gap for experiment
+* scalability threads reverted to 1
+* Wip: check\_model API enhancement
+* Wip: check\_model API enhancement
+* scalability threads
+* scalability threads
+* support vit
+* support vit
+* fix: styles
+* fix delete inactive users task
+* added salck link to email templates
+* support pin datasets
+* support sorting filter on exp list
+* flops info notification on PSR
+* flops info in exp status api
+* fixed sentry bug, added tests
+* fixed sentry bug, added tests
+* flops info in exp details ping
+* add flops info in exp-list
+* added tests for posttraining
+* added tests for dataset builder
+* add score to leaderboard on every cycle
+* add unique image count info to dataset\_meta
+* fix updated\_date for leaderboard
+* private competition details/leaerboard fix
+* private competition details/leaerboard fix
+* private competition details/leaerboard fix
+* dataset meta update patch
+* test fixes
+* add owner to open competition
+* dataset meta update patch
+* sql version fixed
+* dataset meta update patch
+* dataset meta update patch
+* dataset meta update patch
+* sql version fixed
+* sql version fixed
+* Update sql 2019-latest
+* dataset meta update patch
+* dataset meta update patch
+* dataset meta update patch
+* refactor dataset builder
+* refactor dataset builder
+* refactor dataset builder
+* refactor dataset builder
+* post\_training exp completed fix
+* posttrainingbugfix
+* 100 PF on user sign-up, 10PF each month
+* 100 PF on user sign-up, 10PF each month
+* select all available edges for selected images
+* archive tab fix
+* flops utilised value for leaderboard
+* refactored posttraining view
+* refactored posttraining view
+* add flops info in exp-list
+* calculate carbon intensity on each epoch
+* fix epoch load\_of\_cpu test
+* calculate carbon intensity on each epoch
+* dataset owner automatically joins the competition when it's open during the creation of private competition
+* black fix
+* load\_of\_cpu\_fix
+* dataset owner automatically joins the competition when it's open during the creation of private competition
+* fix cpu load calculation
+* zone choices for edge devices, sustainability fix
+* Update requirements.txt
+* fix open competition bug, avg load of cpu
+* Update requirements.txt
+* refactored load model, VIT model test reverted
+* black version fix
+* skipped test black
+* fix project root
+* fix requirements
+* fix requirements
+* fix requirements
+* fix: tensorflow version
+* fix requirements
+* fix requirements
+* fix requirements
+* fix requirements
+* refactored load model, VIT model test updated
+* refactored load model, VIT model test updated
+* refactored load model, check-model classes
+* refactored load model, check-model classes
+* refactored load model, check-model classes
+* description\_and\_sustainability fix
+* description\_and\_sustainability fix
+* description fix
+* open competition support
+* open competition support
+* open competition support
+* open competition support
+* disable add button for flops details
+* queue no fix
+* open dataset participants fix
+* remove unnecessary parameters
+* reset password template fix
+* take load of cpu from edge
+* load of cpu updated for first epoch
+* access type labels changed
+* fix: emails design
+* access type labels changed
+* servicebus connection persistence
+* dataset access type labels changed
+* fix co2\_eq sustaninability
+* fix test post-training
+* password validations added
+* migrations done
+* co2 calculation for experiment
+* added tests for dataset description
+* support dataset description
+* WIP: delete if experiment is in queue and completed
+* fix exp view changes
+* fix exp view changes
+* invitation emial subject updated
+* activation email updated
+* invitation email updated
+* reset password email updated
+* sales email udpated
+* fix edge avalability docstring
+* fix edge availability logic
+* fix experiment query in abort training
+* check availibilty for edge availibilty
+* brakets removed from name
+* fix: auto escape off
+* fix: auto escape off
+* fix: blocktrans
+* fix: blocktrans
+* fix: blocktrans
+* sales email design updated
+* sales email design updated
+* invite email design updated
+* activation email design updated
+* reset password design updated
+* fixed: thread issue
+* thread check fix
+* added email to accept invite response
+* fixed: no of images in old dataset
+* fixed: test\_post\_posttraining\_from\_edge
+* fixed: error in loading file from weights path
+* added email to accept invite response
+* fixed: error in averaging
+* raise in try
+* resend verification authentication
+* resend verification authentication
+* merge
+* including print statemnets
+* take images weightage from dataset
+* path from settings
+* weighted avergaing in try catch
+* weighted avergaing in try catch
+* is\_active added to serializer
+* is\_password\_changed true
+* resend verification link for signed up user
+* resend verification link for signed up user
+* merging
+* sales context added for template, resend verification link for signed up users
+* update password with user updation
+* refactor dataset builder imports
+* update password with user updation
+* update password with user updation
+* refactor dataset builder
+* WIP: weighted average
+* class occurrence, class density, sales\_admin
+* last update change
+* last update change
+* participants for open dataset
+* increase inactive user expiry
+* participants for open dataset
+* invitation template fix
+* sales docstring fixed
+* sales confirmation email
+* sales confirmation email
+* delete inactive users and invitations
+* Sales query enablement
+* sign up test fixes
+* sign up verification
+* sign up verification
+* sign up verification
+* last change update
+* removing last epoch from cycle, adding cycle\_complted for epoch
+* test fixes
+* removing last epoch from cycle, adding cycle\_complted for epoch
+* password chnage on sign-up
+* formating
+* last\_epoch improvements
+* black format
+* WIP:adding check to include record of edge with last epoch
+* update cycleinfo serializer
+* adding last epoch in cycle info model
+* performance improvements
+* performance improvements
+* adding last epoch in cycle info model
+* fix: dataset builder logic bug
+* WIP: dataset builder logic bug
+* fix: currupted download weights
+* fix: currupted download weights
+* fix: download zip error
+* merge with develop
+* fix: pre trained weights:
+* WIP: epoch missing debug
+* WIP: epoch missing debug
+* fix: epoch missing bug
+* fix: epoch missing bug
+* fix exp updated\_date bug
+* fix exp updated\_date bug
+* fix exp timeleft
+* fix exp updated\_date bug
+* fix exp updated\_date bug
+* fix exp updated\_date bug
+* modification in check
+* modification in check
+* queue count bug
+* post training check added
+* adding try and catch for training done
+* adding try and catch for training done
+* delta runtime bug fix
+* updated threads logic
+* fix time left logic
+* fix queue no bug
+* total\_time\_taken\_bug\_fix
+* total\_time\_taken\_bug\_fix
+* black format
+* total\_time\_taken\_bug\_fix
+* test fixes
+* test fixes
+* test fixes
+* get no of threads from edge
+* start time bug and timeleft \_ve cond removed fixed
+* receiver as message\_receiver
+* fix experiment status update
+* fix experiment start-time
+* test fixes
+* datetime fix
+* timeleft bug fix
+* check reciever change
+* posttraining check modified
+* fix: Object of type ServiceBusClient is not JSON serializable'
+* merged
+* fix: The message has either been deleted or already settled
+* print statement added
+* bug fix
+* code cleanup
+* code cleanup
+* local path removed
+* added tests for runtime\_delta
+* merge conflict fix
+* test case fix format
+* test case fix
+* fixed tests
+* refactor timeleft logic
+* import fix
+* updated ping flow format
+* updated ping flow
+* get\_image\_ids using dataset id
+* WIP: test case for psr
+* WIP: test case for psr
+* WIP: update time
+* WIP: update time
+* refactor timeleft logic
+* added get\_image\_ids api
+* fix tests
+* assigned constants to the intent strings
+* response codes updated
+* revent 204 to 200
+* fix tests
+* support experiment run on open dataset
+* resume running exp if missing in queue
+*  post training status change and resume bug resolve
+* support open datasets
+* added connection retry to service bus
+* support open datasets
+* private competition admin fix
+* status for waiting for averaging
+* support open datasets
+* move mesage to dead-letter if there is an error
+* update servicebus to 7.8.0
+* update servicebus to 7.8.0
+* return queue status as True or False
+* return queue status as json
+* Update .gitlab-ci.yml file
+* return queue status in task
+* return queue status in task
+* important info about service bus
+* User sign-up api
+* User sign-up api
+* test topic added for edge
+* epoch queue error fix
+* mark complete after
+* mark complete after
+* updated queue handling
+* exceptions handled
+* re put get\_team\_members
+* black format
+* upperboundtime for paused experiments
+* upperboundtime for paused experiments
+* team\_memebers rmeoved temporarily
+* team\_memebers rmeoved temporarily
+* simulate pipeline
+* fix leaderboard bug for private competitions
+* simulate build
+* simulate pipeline
+* Update .gitlab-ci.yml file
+* test cases fix
+* test case fix
+* GlobalMetaApi test cases
+* metaApi test cases
+* fixed post training api
+* test case fix WIP
+* test case fix
+* test case fix
+* merge conflict
+* default edge connection string
+* fix service bus utils
+* fix service bus utils
+*  test case fix
+* upload condition added
+* cycle info insertion error
+* cycle info insertion error
+* fix imports
+* fix imports
+* bug in experiment create and resume fix
+* logger in task
+* logger in task
+* only private users/teams on private competition
+* separate private/business competitions
+* makemigration
+* moved connection string to util
+* unify dataset team members
+* post training bug fix
+* flops entry created
+* averaging error wip
+* confusion matrix serialiser error wip
+* update cycle bug
+* bug fix for update\_epoch\_data
+* bug fix for update\_epoch\_data
+* bug fix for update\_epoch\_data
+* black format
+* bug fixing
+* debug line added in post training
+* cycle insertion bug
+* black format
+* bug and test cases fixed
+* bug fix
+* updated cycle insertion in queue logic
+* Insert aggregate cycle with queue
+* enabled flops task. moved the service\_bus out of function
+* enabled epochs task. moved the service\_bus out of function
+* adding more tasks
+* trying out tracebloc
+* trying out traceblocdev2 SB
+* trying out traceblocdev2 SB
+* changed tasksmax wait time
+* epochs and flops env added
+* updated bus endpoints
+* task restarted
+* changed celery config
+* changed celery task
+* changed import
+* rmeove epcohs shared task
+* take aggregate epoch time stamp instead of epoch
+* celery-dev name change
+* develop push
+* develop push
+* Update .gitlab-ci.yml file
+* moved celery to dev
+* celery task for stg
+* move celery config to common
+* remove invalid test file
+* move common to see if celery tasks are consumed
+* bug fix for duplicate epochs
+* bug fix for epoch
+* error in epoch queue
+* error in epoch queue
+* test cases fixed
+* test cases fix
+* default queues added
+* ms bus implementation for epoch and flops
+* fix: udpate\_date updates each time experiments list is retreived
+* simulate pipeline
+* fix: udpated date added to datasets ping
+* fix: udpated date on eperiemnts list
+* SB for prod loads from ENV
+* added service bus fields to EdgeDevice on backend
+* added subject filter to message
+* bug fix for different queue task
+* test different queue
+* seperate queue for branches
+* all checks working and tested
+* black formatted
+* fix:model check for layers and MyModel
+* run tests
+* fix: invitation when already accepted or when the key is invalid
+* fix: invitation when already accepted or when the key is invalid
+* fix:model check for layers and MyModel
+* fix:model check for layers and MyModel
+* fix:model check for layers and MyModel
+* fix: dataset json path
+* Update .gitlab-ci.yml file
+* fixed: model argument check bug
+* WIP: model argument check bug
+* fixed:black
+* fixed:test case fail
+* WIP:test case fail
+* WIP:test case fail
+* black
+* test cases fixed for check model
+* test cases fixed for check model
+* test cases fixed for check model
+* test cases fixed for check model
+* black reformat
+* done: model checks to the server API: check-model
+* check experiment status before restarting
+* WIP:model checks
+* WIP:model checks, reducing batch size and increasing number of examples in mock dataset
+* WIP:model checks, changing mocked dataset
+* invitation expirey changed to 14 days
+* invitation expirey changed to 14 days
+* redeploy
+* WIP:model checks, adding logger and print statements
+* WIP:model checks
+* done: model security
+* done: model security
+* WIP: model security: black format
+* WIP: model security check
+* black format
+* bug fixed in ms bus resume logic
+* WIP: model security check
+* WIP:model checks, requiremnt include tensorflow\_datasets
+* code audit
+* WIP:model checks
+* WIP:model checks
+* WIP:model checks
+* WIP:model checks
+* black formatted
+* WIP:model checks
+* adding bandit for checking model for security issues
+* WIP:model checks
+* WIP:model checks
+* WIP:model checks
+* WIP:model checks
+* WIP:model checks
+* experiments count removing property
+* experiments count
+* experiments count
+* experiments count
+* high score not updating fix
+* leaderboard insertion error for private competition
+* debug private competition bug
+* bug fixed
+* logg added
+* logg added
+* format
+* resume error fix
+* updated field
+* changed field type
+* updated experiment status change added connection string in table
+* Private Competitions leaderboard unifying
+* Private Competitions leaderboard unifying
+* black format
+* Private Competitions leaderboard unifying
+* merge
+* Private Competitions leaderboard unifying
+* fixed test cases
+* Private competition flops mgmt
+* Private competition flops mgmt
+* Private competition flops mgmt
+* removed previous epoch in psr
+* status update only after it starts
+* Private competition flops usage
+* Private Competitions leaderboard fix
+* Private Competitions leaderboard fix
+* Private Competitions leaderboard fix
+* error fixed
+* Private Competitions leaderboard fix
+* black format
+* black format
+* black format
+* black format
+* test case fixed
+* test case handled
+* Private Competitions leaderboard fix
+* format
+* test ping
+* Private Competitions
+* added bus implementation for ping
+* updated message error
+* fixed errors
+* Private Competitions
+* error fix
+* error fix
+* updated ping messages
+* format
+* tests
+* remove old password
+* Team model restructure
+* add company to User serializer
+* clean expired exp queue cronjob
+* invitation enhancement
+* invitation enhancement
+* remove sensitive info from serializers
+* remove sensitive info from serializers
+* invitation enhancement
+* invitation enhancement
+* invitation enhancement
+* WIP: Autonomous dataset
+* WIP: Autonomous dataset
+* WIP: Autonomous dataset builder
+* WIP: Autonomous dataset builder
+* WIP: Autonomous dataset builder
+* WIP: Autonomous dataset builder
+* WIP: Autonomous dataset builder
+* fix competition dataset
+* fix exp-queue-no bug
+* user flops cronjob
+* update flops utilised logic
+* added get\_eperiemnt\_queue task
+* code clean up
+* test task for reading experiemnts queue
+* update flops utilised logic
+* update flops utilised logic
+* update flops utilised logic
+* pause all all running and in-queue experiments when flops completely utilised
+* post training bug
+* requirements conflicts
+* requirements updated
+* removed cycle info flops
+* test celery connection on app service
+* added queue number for experiments
+* time calculation updated
+* update flops utilised logic
+* done timeleft calculation
+* update flops utilised logic
+* WIP: timeleft calculation
+* WIP: upperbound time updated with new logic
+* WIP: upperbound time updated with new logic
+* flops bug
+* flops bug
+* flops bug
+* flops admin
+* update flops utilised logic
+* WIP estimated time calculation logic
+* black formatted
+* add flops detail on login
+* change flops detail admin
+* fix leaderboard permissions
+* remove agg epoch is exp in queue
+* black formatted
+* bug fixes
+* WIP: timeleft bug
+* WIP: timeleft bug
+* WIP: startTime not updated
+* Empty-Commit
+* Empty-Commit
+* code cleaup
+* update flops utilised logic
+* black formatted
+* sorted agg epochs
+* update flops utilised logic
+* update flops utilised logic
+* update flops utilised logic
+* update flops utilised logic
+* black formatted
+* update flops utilised logic
+* removed print statement
+* update flops utilised logic
+* merged with develop
+* update feilds added in all experiment.save
+* update flops utilised logic
+* update flops utilised logic
+* update flops utilised logic
+* update flops utilised logic
+* update flops utilised logic
+* update flops utilised logic
+* update flops utilised logic
+* update flops utilised logic
+* update flops utilised logic
+* downloadmodelview updated
+* flops test case failing
+* error in downloading weights in download model view
+* check model testcase
+* check model testcase
+* check model testcase
+* ci/cd path update WIP
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* ci/cd path update WIP
+* Update .gitlab-ci.yml file
+* ci/cd paths update
+* Update .gitlab-ci.yml file
+* removed azure imports
+* errorview modification and prepazure script
+* fix bugs for pingview exp eligibility
+* black formatted
+*  last epoch with cycle aggregation bug fix
+* fix bugs from sentry errors
+* fix bugs from sentry errors
+* last\_epoch logger updated
+* error in epoch seq
+* debugger for epochs
+* last\_epoch bug fix
+* check for other edges in ping function
+* check for other edges in ping function
+* Revert "Handling when multiple edges training and one edge fails"
+* resolved merge conflict
+* commit bugs fixed
+* Handling when multiple edges training and one edge fails
+* test fixes
+* changed invitation error for owner of the dataset
+* changed flops display message
+* merging ds in develop
+* merging ds in develop
+* merge datascientist
+*  added tempjson
+* loggers added for metapi
+* logger and updated logic for remove last epoch
+* add host as dataset's owner's company
+* logger and path change tested for dataset creation , save and download model
+* path update and test cases for metapi and global\_model completed
+* epochSeq updated and last\_epoch null handled
+* adding status key in return post training
+* remove host company from competition creation
+* adding loggers in PingFunctions and EpochFunctions for debugging missing agg epochs
+* global model all api and test cases path change completed
+* remove competition details and leaderboard entries on competition update
+* fix: status not changing after total\_time update
+* fix: imports in utils
+* fix: imports in utils
+* upadte total\_time wherever status of experiment changes to completed
+*  upload, download and training completed with test cases
+* global model merge
+* global models path change
+* fix:test cases for post training and medical xray
+* fix:test cases for post training and medical xray
+* fix:test cases for post training and medical xray
+* fix:test cases for post training and medical xray
+* include dataset\_key in json file, use dataset\_key in get\_dataset
+* timeleft bug fix
+* merge develop in datascientist
+* merge develop in datascientist
+* fix: return issues in refactored post training
+* update exepiment to complete  when stuck running or averging
+* fix: return issues in refactored post training
+* fix: dataset builder bug for irrergular classes
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* status issue
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* fix logger
+* Update .gitlab-ci.yml file
+* fix competition host missing issue
+* Update .gitlab-ci.yml file
+* medical ds builder independent of io/nio logic
+* logging on staging
+* test updated path
+* medical ds builder independent of io/nio logic
+* WIP: make medical ds builder independent of io nio
+* flops info on userinfo api
+* fix competition dataset choices
+* clean medical dataset builder
+* limit competition to private datasets
+* updated competition admin and view
+* test azure mount path
+* test azure mount path
+* post training code cleanup
+* updated test case
+* updated dataset choices
+* updated dataset choices
+* debugging level changed for develop
+* updating proper return response when paused or stop
+* fix: stop time Nonetype
+* none type error
+* redeploy
+* fix: key error in epoch API
+* merge
+* bug fixed in experiment details
+* fix:averaging and training status changes
+* adding status 4 check
+* check cycle for all
+*  error in epochSeq
+* averaging bug fix and post training error status handled
+* whenever new data scientist is added to platform, it should be part of competitions it's company belong to
+*  Nonetype error in exp details ping
+* handle epoch missing in details ping
+* black formatted
+* bug in details ping
+* remove epoch of last cycle added with test cases
+* test cases fix
+* fixed test cases
+* black formatted
+* logs for global\_model and epoch seq
+* logs for global\_model and epoch seq
+* fix migration
+* reformat migration
+* fix:bug in inserting epoch value of nan type
+*  epoch seq added in aggregate epoch
+* updated last\_change column from updated\_date to exp\_creation\_date
+* resolved flops mgmt messages
+* resolved bug for code break on add competition
+* fix:refresh db after every experiment instance save to debug
+* fix:test cases
+* fix:black error
+* fix:FileNotFoundError and added prints, refresh db after every experiment instance save to debug
+* leaderboard summary limit
+* participants on leaderboard
+* migration merged
+* test fixed for training plan
+* removed unwanted field
+* removed unwanted field
+* stop experiments when competition finishes, disallow resume
+* add default entries to leaderboard on competition creation
+* add default entries to leaderboard on competition creation
+* added choice filters for competition creation
+* data\_format and dtype bug fixed
+* experiment creation bug
+* experiment creation bug
+* dataset builder have atleast two edges
+* dataset builder have atleast two edges
+* merge
+* fixed count for experiments in competitions
+* fixed password reset bug
+* fixed invitation bugs
+* fixed bugs
+* fix competition bugs
+* WIP: sentry added
+* WIP: status 4 bug
+* WIP: status 4 bug
+* fix experiment status update
+* detailed logging
+* retries check updated
+* retries check updated
+* retries check updated
+* retries check updated
+* updated date auto True in epoch and agg epoch
+* updated time null error
+* trigger pipeline
+* redeploy
+* updated date added in aggregate epoch black
+* updated date added in aggregate epoch
+* black on experiment details
+* test case fixed experiment\_details\_api
+* black on experiment details
+* lastepoch for cycle added
+* epoch serialiser and errorview logs added
+* added logs
+* remove id, updated date from serilaizer and print experiemnt id in serializer error
+* fixed: ping api not looping through all experiments in queue
+* fixed: ping api not looping through all experiments in queue
+* test fix
+* added averaging status
+* fix flops usage per company in leaderboard
+* fixed tests
+* fix competition display for experiment view
+* posttraining while exp stopped bug
+* experiment stopped try catch enabled
+* abort functionality added
+* added check so that only when exp is running
+*  added docstring
+* fix competition flops display per logged-in user
+* fix competition flops calculations
+* fix experiment stop time update on flops exceed
+* fix experiment flops for competition
+* added user details on company serializer
+* test fixes
+* WIP dataset builder for autonomous data
+* test fixes
+* test fixes
+* test fixes
+* flops availability logic
+* flops availability logic
+* fix adding data-scientists on competition dataset
+* fix competition dataset list display
+* fix competition dataset list display
+* alter fileds in autonomous table
+* cleanup code
+* test case fixed
+* Global meta API for autonomous data
+* Global meta API for autonomous data
+* total prize on competition api
+* type & high-score on competition api endpoint
+* update total time in posttraining
+* test\_black
+* calculate timeleft on paginated response
+* trigger develop pipeline
+* race condition added
+* save timeleft for experiment
+* Competition prize details
+* remove pipeline for stg
+* separate pipeline for stg
+* fi: git issue
+* fi: datascientist url in allowed hosts
+* Update .gitlab-ci.yml for datascientist
+* remove timeleft update from experiment details api
+* fix on sudden play/pause experiment get stuck
+* fix on sudden play/pause experiment get stuck
+* fix on sudden play/pause experiment get stuck
+* black formatting
+* updated requirements
+* updated serializers import order
+* updated black version
+* fix user not able to pause if exp in queue
+* start time for competition, refactored serializers, added tests
+* competition leaderboard summary
+* pre-commit support, pytest support, pytest settings, competition-leaderboard changes
+* pre-commit support, pytest support, pytest settings, competition-leaderboard changes
+* fix test cases
+* run black
+* adding refresh\_from\_db() for experiments in flops API's
+* adding check to avoid status bugs in post training
+* status bug stop\_time null fixed and tested
+* WIP: status bug
+* adding refresh for db in post training
+* select for update in transaction added
+* redeployement
+* redeployement
+* handling race condition
+* redeploying
+* redeploying
+* adding check for experiment complition
+* poduction url
+* fix: production pipeline
+* CI for production
+* email template updated
+* cycle time added for stop and paused experiments
+* Revert "Merge branch 'datascientist' into 'develop'"
+* ignore black
+* production settings
+* production settings
+* cycle time added for stop and paused experiments
+* black run
+* stoped experiment bug fixed, paused experiment will return run time
+* added stop\_time in Experiment and updated serializers
+* bug fixing for None class
+* Added check before passing value for None class
+* put check in ping queueu for status 5
+* status 5 in experiment view handled
+* Added check before passing value for None class
+* fixed test\_black
+* test case fix
+* develop merged
+* data upload error fix
+* mandatory fields modified
+* mandatory fields modified
+* fixed claps in user summary
+* fixed claps in user summary
+* added black support, system tests, fixed logic for partially archived dataset
+* Display all datasets:
+* status of experiment in all returns from posttraining
+* support is\_archived flag, test fixes
+* support is\_archived flag for fully archived datasets
+* fix: Bug Loading experiment view, updated by last experiment's change date
+* feat: archived experiments on archiving dataset, test added
+* feat: unified dataset query for user, experiment status ping fixed
+* feat: unified dataset query for user, experiment status ping fixed
+* flops logic bug
+* feat: View for Archived experiments, fixed tests
+* feat: View for Archived experiments, added tests
+* flops utilised test fixed
+* feat: View for Archived experiments, added tests
+* feat: View for Archived experiments and datasets
+* bug in flops
+* feat: View for Archived experiments and datasets - fix timeleft: if timeleft < 0, display timeleft at 0
+* estimate flops removed from upperbound
+* returning total images per edge in check-model API
+* returning total images per edge in check-model API
+* returning total images in check-model API
+* returning total images in check-model API
+* flops updated
+* xraystorages for production
+* udpated urls for production
+* trigger pipeline
+* fix: stg invitation url
+* fix: archived Experiments count excluded test fixes
+* fix: archived Experiments count excluded test fixes
+* fix: archived Experiments count excluded from total count under dataset
+* fix: archived Experiments count excluded from total count under dataset
+* removing absolute time from timeleft
+* Update .gitlab-ci.yml file
+* dataset status running when only any experiment is in running status
+* enhance experiment ping response
+* fix: test for dowload, flops
+* fix: test for check model classes
+* fix: settings
+* merging with  staging-environment
+* merge staging
+* filshare added for diff env
+* adding staging env
+* fix:tests training view
+* fix:tests post training
+* fix:check in  post training
+* check in  post training
+* check in  post training for checking cycle aggregation
+* fix:test case for post training
+* enhance experiment ping response
+* limiting threads allowed on edge to 2
+* updated common and local
+* relative last\_epoch
+* updated the mssql engine
+* updated the mssql engine
+* check in queue record to avoid duplication
+* adding sleep 3 sec in Ping API to avoid queue record duplication
+* updated query
+* last\_epoch removed from details api
+* changes: psr, pingfunction,timeleft
+* fix experiment ping updated dataset access-type checking
+* fix: pause experiment time in API eror
+* fix: time in API
+* last\_epoch changed in experiment detail
+* last epoch in averaging added to aggcycle
+* last epoch added in agg cycle table
+* fix grouped\_defect\_data
+* fix:negative time in API
+* fix:half the upperboundTime in Timeleft
+* trigger pipeline
+* half the upperboundTime in Timeleft
+* timeleft bug
+* fix experiment ping updated date filter
+* testcasesfix
+* fix experiment ping updated date filter
+* fix experiment ping updated date filter
+* last epoch changed to relative value for list
+* last epoch changed to relative value for list
+* last epoch changed to relative value
+* last epoch changed to relative value
+* fix JSON parsing for views
+* merge develop
+* flops buffer removed
+* refactor posttraining view
+* fix: AbortApi processId error
+* refactored EpochFunctions,EpochView,ModelCodeView,TimeleftView Api
+* refactor cycleinfoview
+* refactor cycleinfoview
+* refactored TrainingPlanView Api
+* refactored AlertAdminView Api
+* refactored Abort and agregateview Api
+* refactor checkmodelclasses
+* refactor download & upload
+* refactored cycleView Api
+* refactor training view
+* added tests where do\_check fails
+* refactor ping function
+* refactor ping function, fix tests
+* updating experiment status with variable names
+* estimate flops check
+* adding docs and comments in AbortTrainingView, AggregateEpochView API
+* flops estimate update WIP
+* flops estimate update WIP
+* adding docs and comments in CheckModelClassesView, CycleInfoView, CycleView API
+* flops estimate update
+* flops updated
+* adding docs and comments in DownloadView,UploadView and PingFunctions API
+* feat(flops\_details): non editable fields on flops detail/history table
+* feat(flops\_details): support user and company level flops management
+* feat(flops\_details): support user and company level flops management
+* adding docs and comments in PingView API
+* adding docs and comments in TrainingView API
+* estimated flops calculation updated
+* WIP: process\_list bug in edge status
+* fix:casting queue processId in str as process id in process\_list is str
+* estimated check added and edgestatus bug fix
+* edge status check for bug
+* check in abort and edgestatus
+* edgestatus update try added
+* WIP abort bug
+* abort bug
+* flops logic updated
+* abort nsqueue
+* revert benchmark values
+* psr for not running status
+* fix: error in abort satus 0
+* experiment\_details\_ping, tests
+* added lastepoch in experimentdetails
+* abort training changes
+* abort training changes
+* experiment\_details\_ping
+* fix:abort working only for one edge when exp paused
+* fix:abort working only for one edge when exp paused
+* fix:abort working only for one edge when exp paused
+* machine flops updated in estimate flops
+* last epoch check added
+* last epoch check added
+* repush the latest code to datascientist
+* while experiment\_query in ping view
+* while experiment\_query in ping view
+* layersFreeze from layersTrained in experiment serializer
+* change layerstrained to layersFreeze in Experiment models
+* Sample images for industrial dataset
+* Sample images for industrial dataset
+* fix:status changeing to 5 after experiment completed
+* ping function coverage
+* coverage for cycleinfo,download,edgestatus,flops,ping
+* migration fix
+* code clean up
+* test fixes
+* test fixes
+* test fixes
+* test fixes
+* migration fix, test fixes
+* migration fix, test fixes
+* migration fix, test fixes
+* Revert "migration conflicts"
+* migration fix
+* migration fix
+* migration conflicts
+* merge conflicts resolved
+* merged
+* removed bug
+* azure delete dir added
+* azure delete dir added
+* coverage for Epoch Functions done
+* Resolved merged conflicts in Abort API
+* coverage for posttraining,averaging and modifications in abort API
+* fix: dataset
+* added Experiment in setUp
+* code refactoring
+* code refactoring
+* code refactoring
+* code refactoring
+* removed temp files
+* training api test fix wip
+* training api test fix wip
+* exepriment model change
+*  training api create diresctory fix
+* test for training api
+* test case for checkmodel class done
+* delete invitation on user deletion
+* invitation email subject
+* abort and edgestatus
+* added test case for aggregate epoch
+* tests coverage
+* tests coverage
+* tests coverage
+* tests coverage
+* tests coverage
+* tests coverage
+* tests coverage
+* tests coverage
+* tests coverage
+* test change password, test cycle view
+* test archiving
+* test leaderboard
+* test case for Epoch view added and completed
+* test utils, coverage config
+* test utils, coverage config, missing migration
+* test fixed
+* test fixed
+* create dataset tests
+* competition tests
+* test case for trainingplan API added and completed
+* competition tests
+* flopsutilised-get tests
+* experimentQueue tests
+* test fixed
+* test case for timeleft Api completed
+* test case for timeleft Api
+* thhp\_method\_names as list
+* added constants for statuses
+* experiments ping status api
+* test\_competition\_api
+* fix: test\_usersummary\_api
+* test\_psr
+* get user summary based on user id
+* test\_invitation
+* test\_invitation
+* upload api bug fix
+* upload api bug fix
+* test case for upload and bug in upload fixed
+* test\_psr
+* test for queue experiments added
+* email as username while onboarding users
+* removed extra prints
+* upload azure failed
+* upload azure bug
+* upload azure bug
+* azure error fix
+* update abort training
+* update post Training
+* update abortTraining and post Training
+* update put in experimentqueue view with cycleno
+* added cycleno in experiment queue
+* forgot password email design updated
+* ping check agg cycle
+* cycle info bug in abort api
+* psr and estimateflops
+* abort status 0 bug fix
+* abort
+* added is\_password\_changed to getuserinfo
+* abort api updated
+* print statement
+* Auth login first\_name, last\_name
+* reset password redirection link update
+* reset password email title change
+* reset password working
+* urls added for password reset
+* app: reset password
+* trainingplan API merge
+* reset password
+* trainingplan API for duplication is done
+* update profile api
+* update flops in agg table
+* merge conflicts
+* cycleinfo test fixed
+* Add all users belonging to company when competition adds a new compatitor
+* Add all users belonging to company when competition adds a new compatitor
+* Add all users belonging to company when competition adds a new compatitor
+* Add all users belonging to company when competition adds a new compatitor
+* upload test fixed
+* ping and cycleinfo test fix
+* add dataset key to the accpt-invite
+* bug in updating flops
+* posttraining else removed
+* flops utilised int cast values
+* error in posttraining fix
+* error in posttraining and pingfunction fix
+* added pending\_invitations email list to dataset response
+* status added for averaging in experiment view
+* prevent owner from inviting self to dataset
+* check of averaging added
+* ping view bugs handeled
+* updated ping with conditions
+* added tests, bug fixes
+* posttraining exception added
+* posttraining exception added
+* email changes
+* posttraining and cycleinfo bug fix
+* cycle info return message added
+* WIP: trainingplan check
+* utilisation
+* post training print statement
+* ds added in allowed host
+* exception handled in posttraining
+* refactor flops utility, fixes
+* refactor flops utility, fixes
+* WIP: trainingplan check
+* adding trainingplan duplication check API
+* utilisation checks added
+* utilisation checks added
+* fix: settings
+* (test): get all experiments belonging to closed dataset
+* (fix) leaderboard bug: aggregated cycle info update fix
+* (fix) leaderboard bug: aggregated cycle info update fix
+* (fix)(WIP): experiment queue deletion
+* (fix)(WIP): File handlling, edge handling on averaging
+*  utilisation bug fix and Experiment bug fix
+* invitation email design udpated
+* invitation email design udpated
+* revert cycleinfo
+* WIP: utilisation bug
+* WIP: utilisation bug
+* Exception while averaging
+* abort api bug fix
+* fields changed to integers in utilisation\_stat model
+* Common settings separated for all environments
+* Common settings separated for all environments
+* added allowed host
+* flops api bug fix
+* trigger pipeline on datascientist branch
+* Score Preference on Competition
+* Score Preference on Competition
+* trigger pipeline on datascientist branch
+* trigger pipeline on datascientist branch
+* trigger pipeline on datascientist branch
+* trigger pipeline on datascientist branch
+* trigger pipeline on datascientist branch
+* trigger pipeline on datascientist branch
+* trigger pipeline on datascientist branch
+* trigger pipeline on datascientist branch
+* trigger pipeline on datascientist branch
+* trigger pipeline on datascientist branch
+* added the datascientist pipeline and app service slot
+* ping api test fixes
+*  check added in pause resume api
+* flops utilised check added for competition
+* Signals for Competition details on Competition update
+* Signals for Competition details on Competition update or create
+* competition details migration fix
+* estomated flops display for experiments
+* feat(competition\_details): store details for each competitior in a competition
+* feat(invitations): create new company only if it does not exist
+* fix: Experiments display fix
+* fix: Experiments display fix
+* fix: Experiments display fix
+* fix: Experiments displayed for different company, on shared datasets
+* feat(invitations): send password for new user only
+* feat(invitations): invitation existing user to data-scientist fix
+* feat(invitations): invitation existing user to data-scientist fix
+* feat(invitations): invitation url fix
+* feat(invitations): invitation to multiple datasets by multiple inviters
+* return json response instead of redirection
+* feat(invitations): add existing ds to dataset on invite
+* fix: is\_password\_changed update
+* fix: leaderboard scores, fixed tests
+* fix: leaderboard scores
+* updated to return total time taken for experiment in timeleft API
+* fix: leaderboard bug
+* fix: value for total\_time\_taken not getting inserted in experiment
+* fix: value for total\_time\_taken not getting inserted in aggregate cycle
+* feat: change password, migration fixed
+* feat: change password
+* feat(invitations): exception handled
+* comment in post training
+* fix: resource not found in post training test
+* feat(invitations): resolved comment
+* feat(invitations): moved all errors to non-field-errors
+* inserting and calculation of total experiment time after averaging
+* inserting and calculation of total experiment time after averaging
+* added total\_time\_taken field in experiment,cycleinfo,aggregatecycle
+* added total\_time\_taken field in experiment,cycleinfo,aggregatecycle
+* feat(invitations): public domain restrictions
+* feat(invitations): squashed migrations for invitations
+* feat(invitations): competition dataset validations
+* removing logging in downloadmodel
+* download model, weights and trainingplan
+* feat(invitations): competition dataset validations
+* feat: Invitations, user validations and domain, company creation
+* WIP training plan in txt file and model file
+* fix: migrations
+* fix: tests
+* feat: support invitations, ci env changes
+* feat: support invitations
+* fix: added pre\_trained\_weights to test
+* feat: support domains in company, fix migrations
+* is\_edge check updated
+* test cases handeled for modecode and download
+* test cases handeled
+* added pre\_trained\_weights, check in TrainingView
+* archive-dataset/ api end point added
+* edge not allowed condition added
+* trainingplan updated acc to JN
+* upload view to handle only model
+* achive\_dataset added
+* acces\_type added
+* feat: support domains in company
+* response edited
+* response edited
+* estexptime test and check\_model update
+* status returned in estexptime api
+* merge migrations
+* updated date for comment on experiment fixed per dataset
+* archive-experiment url reverted
+* test cleanup, changed test verbosity, updated experiment view for open datasets
+* estimated flops
+* casting with int for training time
+* fix: tests
+* fix: tests
+* fix: archive value should be boolean
+* upperbound time updated
+* applied black
+* feat: UserDataSet Permission level sharing, on open dataset creation add all users to it
+* feat: UserDataSet create/share with access type
+* feat: Archive experiments, comments addressed
+* feat: UserDataSet access types
+* feature: Support Archive for experiments, added functional test
+* feature: Support Archive for experiments, added functional test
+* updated user summary with running experiments
+* updated user summary with running experiments
+* rules for merge request
+* rules for merge request
+* rules for merge request
+* rules for merge request
+* rules for merge request
+* failed text fixed
+* folder structure change
+* fixed: test cases for training,download,upload
+* WIP test cases
+* exp\_updated\_date max of experiment's updated-date or comments'
+* updated training view for dir creation
+* User summary view
+* WIP download view
+* updated leaderboard competition summary
+* updating download view/ reverting changes for status buttons
+* endpoint for leaderboard competition summary
+*  failed test fix
+* training plan and created data
+* 1). activate test pipeline on develop branch. \n 2). added owner to the list of datasets in experiments page
+* confusion matrix as json field
+* User dataset sorting by experiment updated date
+* confusion matrix error
+* User dataset sorting by experiment updated date
+* removed the try block on scroes from averaging\_metrics
+* test fixes
+* bug in the user info API -> refresh user without team -> redirects to login
+* display experiments in descending order
+* scores as Json in Cycle information api
+* actiavte  test pipeline on develop and improvements branch
+* skip tests
+* skip tests
+* skip tests
+* skip tests
+* edge status bug fix
+* adding to print no of batches in flops calculation
+* test fixes
+* email field mandatory, support model bakery for auto model creation
+* Altered email field as unique
+* Added TODO for future
+* scores in AggregateCycleInformation as json
+* training plan and confusion matrix
+* changing status for training to 4 in psr API
+* setup sql server on local
+* support username and email both for sign-in
+* check-model api fix
+* fix:experiment details matrix in serializer
+* updated request handling on experiment view
+* fix:test case for experiment details
+* fix:confusion matrix insertion error
+* Added epochs to experiment-details API
+* run black on global\_model/PingFunctions.py
+* restrict updation fields on experiment
+* support added partial update on experiment
+* aggregate epochs in posttraining view
+* aggregate epochs in experiment-details API
+*  added none in industrial dataset
+* fix: cycleinfo test case
+* updating cycle information view to handle confusion matrix insertion
+* added confusion matrix fields in cycleinfo and aggregate cycle
+* fix: host company details in experiments list
+* test\_posttraining\_api bug fixed
+* test\_posttraining\_api bug fixed
+* removing metaApi.views.ClapsView
+* claps API removed, included in experiments
+* run tests on improvements branch
+* run tests on improvements branch
+* host info retured in experiment api
+* claps added in experiment-details
+* experiment api return status acc to experiemnt running
+* adding API for claps
+* adding API to update objective of experiment
+* adding condition for status 0 ie abort in Timeleft API
+* readme updated
+* API for timeleft in experiemnt
+* added epoch aggregation insertion and recalculation logic
+* flops utilised for dataset
+* aggregation fix
+* aggregation fix
+* added cycleNo in epoch tables, inserting records get function included in epochview
+* bug fix for flops aggregation
+* update flops in experiment table
+*  flops added in experiment table
+* added epoch and aggregate epoch models
+* experiment count fixed: only experiments from company displayed
+* Simulate
+* for failed experiment update processId to None and status to 1
+* Bug fix for key and updated date
+* leaderboard bug fixed
+* WIP leaderboard bug
+* post training status codes
+* WIP try catch for bug fixing
+* add status failed model upload and post training
+* simulate
+* serializer for post leaderboard in averaging insertleaderboard
+* leaderboard company
+* processid not found error
+* return 404 when satus not updated in experiment queue put
+* Retry push
+* return 404 when satus not updated in experiment queue put
+* message in notCompleted
+* experiment queue fix: indexing
+* Simulate
+* adding print statements
+*  Ping Function Bug Fix
+* simulate Update
+* simulate Update
+* Update simulate
+* Update simulation
+* update edge date from EdgeHeathView
+* refactored ping,posttraining bug fix: edgehealth query
+* simulate build
+* fix:edge health query not found
+* fix:compare memory and ram
+* comment
+* delete queue record in posttraining
+* abortTraining: object has no attribute processId
+* fix: test case for download model failed
+* fix: test case for download model failed
+* fix: ExperimentQueue.edgeId must be a User instance
+* fix: queue query not exist in posttraining test case
+* deleting queue record after experiment gets completed
+* fixed:NameError: os
+* fixed:NameError: name 'AzureStorage' is not defined
+* added chechmemcpu function to compare ram for each edge
+* removing category in docheck function: PingFunctions
+* fix: abort training api end point should always return a valid json
+* resume in ping
+* abort training API updated in parallel training
+* added params.json as default
+* nothing as status in ping return
+* processid insertion in queue
+* fix: downloaded  model path
+* added the resource calculator
+* Abort API returns processId along with edgeId
+* process id in queue table
+* ping view for parallel done
+* added check to avoid duplication in experiment queue table
+* Ping View no record in queue done
+* WIP Ping View
+* failed serializer fix
+* WIP Ping View
+* change ram to cpu
+* added company info to leaderboard api
+* WIP added queue logic in ping
+* edge health
+* edge health table
+* added experimentQueue model
+* pipeline for prod
+* db separated for dev environment
+* bug: querying leaderboard with conductor company instead of competition
+* alter field score in leaderboard to float from decimal
+* fix: login api test fails
+* fix: company id issue
+* added default company
+* separate tables for Tracebloc users. Added admin for competition
+* leaderboard record insertion bug fixed
+* added company to the EdgeDevice and DataScientist in the admin
+* added company to the User in the admin
+* added company info to leaderboard
+* For competition dataset only organisation users are displayed in teams
+* For competition dataset only users from my organisation should be visible in Team
+* added company type to company model and api
+* dataset can be shared with other company if competition, test case handeled
+* WIP test\_save\_dataset\_api
+* dataset can only be shared to other organisations if its competition
+* insertion of records in utilisestats table
+* fix: added company details to competition api
+* utlisation table added
+* Competitors automatically shares best success metric
+* Competitors automatically shares best success metric
+* fix: empty commit to force redeploy
+* fix: cometitionId\_id removed
+* fix: experiment serializer
+* fix: migration conflicts
+* fix: removing competition id
+* one-one relation implemented. relations removed from experiemnt, leaderboard and competition
+* Rearranging the logic of leaderboard with one to one dataset and competition
+* bug in posttraining view for leaderboard score fixed
+* WIP posttraining view
+* Adding print statements for debugging
+* Adding print statements for debugging
+* conductor\_company refernced error fixed
+* leaderboard serializer not valid fixed
+* insert in leaderboard posttraining
+* insert in leaderboard posttraining
+* added competition serializer
+* fix: os import missing
+* company can now be added from admin. Company Logo saved in Azure Storage
+* competitionId field added in experiment
+* fix: views conflict
+* leaderboard api
+* leaderboard api
+* API for competition
+* fix: competition serializer
+* competition view
+* fix: competition serializer
+* 1). competition can only be created if the dataset is owned by host company and winning\_prizes is a valid json 2). datasets  page in admin now shows more details about a dataset 3). admin.py is now split into multiple files for better code readibility
+* added competition Model
+* removing unnecessary for loop in averaging
+* print statements added in averaging and posttraining
+* added pagination to experiments list
+* abortTraining API bug fixed
+* API for abort training included
+* alert service added
+* fix: save medical dataset
+* fix: save industrial dataset
+* dataset classes in industrial
+* smtp settings done. send\_mail now works
+* monitor api added
+* python version set to 3.9
+* ptyhon version set to 3.8
+* upgraded pip
+* fix labels in check-model
+* renamed defects to defect in PingView
+* renamed defects to defect in PingView
+* temperorily removed test for PingView, ExperimentView, DownloadView, PSR, FLOPS
+* temperorily removed test for PingView
+* changed updated\_date to created\_date for experiment selection
+* dataset classes now returns in array form
+* ping end-point now returns dataset meta data as well
+* edges count in averaging loop bug fixed
+* to download from azure and average weights, test cases handeled
+* edge weights uploaded on azure storage/test case updated accordingly
+* ping bug fixed
+* ping bug fixed
+* adding break in selecting experiment
+* Check-model API bug fixed
+* 1) add none diseases images for all the egdes used in the selected classes
+* handling experiment selection irrespective of running experiment
+* feature: sample images now contain samples of selected classes. io data return on all edges usedin nio
+* returning updated start time in cycle API
+* statu snotCompleted added to handle upperbound check on edge code
+* sending updated parameters in resume intent when pinged
+* pagination for experiments, comments
+* removing weights check from upload view
+* removing from DS in upload test
+* upload test case
+* upload view check weights, posttraining total seconds added
+* added dataset\_type to experiments list
+* static assets and media now stored in azure storage container
+* fix: updated requirements.txt
+* WIP: added the count and other fields to the returned json
+* WIP: choose those edges which contains all the selected classes
+* edge classes meta table added
+* requirements update
+* API for model input output comparison with dataset
+* WIP: static storage
+* model input not found bug fixed
+* API for check model output with dataset classes
+* download bug fixed
+* update startTime for next cycle after aggregation
+* start time error in ping fixed
+* fix: increased the total dataset size to 10000 and the paginatin to 15
+* fix: increased the total dataset size to 6000 and the paginatin to 15
+* path not found bug in averaging file fixed
+* WIP
+* fix: now 10 samples images are returned
+* ping endpoint sends type of dataset to handle multiple types
+* ping endpoint sends type of dataset to handle multiple types
+* Upload, download API updated to get files from azure
+* flops, ping, and other tests fail
+* downloadmodel\_api test fails
+* experiment\_api test fails
+* savedataset test fails
+* savedataset test fails
+* 1). create and save medical dataset 2). added type to the dataset to diffrintiate datasets. 3). udpated readme
+* The index.lock file which was left prevented the push
+* removed the lock file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* test case for pause stop API, updated readme
+* agregation bug fixed
+* WIP agregation bug
+* WIP agregation bug
+* starttime none value bug fixed
+* pause,stop,resume endpoint
+* start time save in ping
+* start time save in ping
+* start time included in test cases
+* start time included in ping
+* included upperboundtime in posttraining for aggregation
+* removing clear.chache
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* 1). Create Global Medical Xray 2). Create Medical Xray dataset 3). Save Medical Xray dataset
+* memchach clear
+* WIP import bug
+* WIP import bug
+* test case for flops API
+* model file bug fixed
+* WIP platform bug test
+* WIP test calculated flops
+* WIP test calculated flops
+* failed test fix
+* updated requirements.txt to fix the pip install bug
+* added update image status api in GlobalMetaApi
+* fixed os platform imports in flops API
+* updated requirements
+* tensorflow in requirements
+* get\_flops included
+* Edge status updated periodically in background
+* Edge status View added in metaApi
+* edge model update
+* WIP flops cal
+* medical xray
+* fix failed test
+* Added Global Meta data table for medical xray
+* removed tf from requirements
+* added fields to experiment, flops API
+* Experiment View Filter
+* added API for flops calculation
+* user role permission and share dataset checks
+* WIP upperbound time
+* added local urls to the dev settings to make it work locally with frontend
+* gitlab-ci updated to test CI and CD
+* Update .gitlab-ci.yml to test both CI and CD
+* Update .gitlab-ci.yml to test CD
+* Update .gitlab-ci.yml to test CD
+* Update .gitlab-ci.yml to test CD
+* Update .gitlab-ci.yml to test CD
+* Update .gitlab-ci.yml to test CD
+* Update .gitlab-ci.yml to test CD
+* Update .gitlab-ci.yml to test CD
+* Update .gitlab-ci.yml to test CD
+* Update .gitlab-ci.yml to test CD
+* gitlab-ci
+* gitlab-ci
+* gitlab-ci
+* gitlab-ci
+* downloadmodel test completed
+* posttraining test completed
+* test for upload view
+* fix: dev settings to allow azure develop app servce
+* fix: dev settings to allow azure develop app servce
+* added TRACEBLOC\_ENV to ci
+* added TRACEBLOC\_ENV to ci
+* added multiple settings
+* experiment api and global data api tests passing
+* WIP: gitlab update
+* WIP: gitlab update
+* WIP: gitlab update
+* WIP: gitlab update
+* WIP: gitlab update
+* WIP: gitlab update
+* WIP: gitlab update
+* WIP: gitlab update
+* WIP: gitlab update
+* WIP: gitlab update
+* WIP: gitlab update
+* WIP: gitlab update
+* WIP: gitlab update
+* WIP: altered migrations
+* WIP: drop gloabl\_meta\_data table in test
+* WIP: drop gloabl\_meta\_data table in test
+* WIP: drop gloabl\_meta\_data table in test
+* WIP: using environment variables for settings
+* WIP: single db migration started
+* upload view updated
+* upload, modelcode view updated
+* fix: image path in prod
+* competition flag
+* dataset\_key for experiment
+* dataset\_key for experiment
+* get name in user info
+* updated field list on experiment details
+* migrations file
+* semi colon removed
+* dataset status updated with experiments status
+* Userdataset and Experiment Demo changes
+* EXperiments field added and models, serializers updated
+* revert settings. and removed gitlab pipline
+* revert settings. and removed gitlab pipline
+* revert settings
+* revert settings
+* revert settings
+* rename db
+* delete test dbs from gitlab-ci
+* run test\_save\_dataset\_api
+* run test\_save\_dataset\_api
+* wip: testing. added the TESTS[DEPENDENCIES]
+* wip: testing. removed Company and EDGE from globalmeta test
+* wip: testing. removed Company and EDGE from globalmeta test
+* wip: testing. constant value for edge
+* changed db\_host to mssqlnew
+* checking test\_signin\_model
+* order of db changed in test\_global\_meta\_model
+* checking test\_global\_meta\_model
+* checking test\_global\_meta\_model
+* check if all the tables have been created
+* delete old test DBs
+* delete old test DBs
+* delete old test DBs
+* delete old test DBs
+* trying test\_create\_dataset\_api
+* trying whole tests
+* trying whole tests
+* trying whole tests
+* trying only test\_signin\_api
+* added migrate metaApi
+* added migrate metaApi
+* added migrate metaApi
+* added migrate metaApi
+* removed --keepdb flag
+* removed collectstatic
+* manually creating both DBs
+* running without loaddata param
+* added a 20 sec delay to see if the db gets connected
+* added a 20 sec delay to see if the db gets connected
+* added a 20 sec delay to see if the db gets connected
+* To this point, the server is up but fails to connect to db
+* To this point, the server is up but fails to connect to db
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* WIP: gitlab test pipeline added DB\_DRVIER
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* WIP: added DB\_ENGINE env
+* WIP: trying to connect to db
+* WIP: trying to connect to db
+* WIP: trying to connect to db
+* WIP: trying to connect to db
+* fix: trying to make migration for tests
+* fix: db host
+* WIP: trying to connect to test db
+* fix: db password
+* fix: db host
+* updated settings.py to use .env
+* updated settings.py to use .env
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* Update .gitlab-ci.yml file
+* edit comments for download view
+* updated upload and experiment view
+* updated the savdataset test. added order\_by to SaveDataViewSet
+* Comment test
+* Experiment Comment API test
+* API testing for download Model
+*  comment model and api test
+*  comment model and api test
+* fix: authenticate tests in savedataset
+* global\_model API testing for posttraining completed
+* 1). fix: test for edge userinfo 2). added company details to edge userinfo api
+* test for Experiment View completed
+* comment model test
+* test for experiment unknown user
+* combined the createuserdata test for ds and edge
+* test added for user search
+*  merge fix
+* experiment and dataset test cases
+* global\_model API testing for modelcode completed
+* fixed running tests
+* WIP: fixing tests
+* fix: test for createdataset api
+*  test with merge for experiment and userdataset
+*  test for experiment and dataset
+* fix: test for createdataset api
+* global\_model API testing for upload completed
+* updated the global meta test
+* global\_model API testing for training,ping,download,cycleinfo,cycle completed
+* fix: createdataset test  throws error when user is edge
+* removed the company conditiion for createdataset test to pass
+* added condition where only DS can create a dataset
+* WIP testing
+*  test to create experiment
+* WIP Testing global\_model
+* Company and Team 100% covered. added ignore for code in Team, Company and UserDataSet that does not need to be covered in tests
+* 1). Test for CreateDataSet 2). settings added for tests coverage 3). added a delete\_file method for azure\_storage
+* Testing for PingView,UploadView included
+* 1) test for updating global meta data. 2). updated the admin title
+* 1). fix: disabled GET on Global meta api 2). tests for global meta 3). static files now serve using whitenoise
+* tests for multip db 1). Global meta Model test
+* edges\_involved check for aggregation
+* added test for user models, signin model, and signin api
+* updated requirements.txt
+* added edges\_involved in experiment models and view
+* 1), getUserInfo bug fixed 2). unit tests for Company, Team and User Creation
+* experiment status
+* experiment status, cycleno bug fixed
+* experiment status bug fixed
+* cycleno issue in aggregate cycle fixed
+* fixed staus update after training completion
+* WIP cycle endpoint loop updated
+* check to allow only one entry for each aggregated cycle of an experiment
+* check for getting only comments if the dataset is shared with the user
+* WIP removed all local memory variables
+* check to allow only one entry for a cycle from the edge for an experiment
+* averaging cycleinfo
+* averaging cycleinfo check
+* ping print removed
+* modelcodeview check included for dataset ownership/member
+* moved uuid for model name to experimentView and updated uploadView accordingly
+* added loop for DS to upload file, added unique name for model in experiment
+* updated cycleview to resume training when edge freezed, removed paths from message
+* Added edge id filter in get method of cycleinfo API
+* updated Pingview,DownloadView,UploadView,PosttrainingView.Paths added on server
+* updated ping view
+* updated readme
+* updated traning view and ping view
+* accuracy,loss exponential format problem handeled
+* updated readme
+* cycle bug fixed
+* updated readme
+* 1). added a one-time token for model file download. 2). added an api that will directly download the file from azure storage
+* changed the download api
+* server training queue buged fixed
+* server training edge queue case fixed
+* fixed bug for updating status
+* renamed experimentdata to experiment-details
+* updated the experimentdata api end point
+* empty json file added to new mode files directory, removed unneccesary codes
+* fix the experiments list api
+* All Tables linked and tested the training sucessfully
+* Add new directory
+* added folder to download model
+* Add new directory
+* endpoint for downloading model
+* merge conflicts
+* download model api
+* user can now be searched based on email, first\_name, last\_name
+* Experiment status codes for training process
+* merged
+* added user search based on email. added user share api
+* Experiment cycle data endpoint
+* Experiment data for UI
+* Aggregate cycle insertion code completed
+* fixed Add Experiment issue
+* Adding records to aggregate cycle
+* fixed ExperimentListView import issue
+* updated the userdataset to accomudate multiple users. THis will pave the way for sharing the dataset
+* List on UI Experiment
+* readme update for model src code
+* readme update for model src code
+* added order to comments
+* get model code with experiment id
+* return compelte object when posting new comment
+* API for modelcode
+* Cycle Info API
+* readme
+* added comment api in readme
+* extra condition else omitted
+* condition to check if user can access dataset
+* nested comment
+* urls and get updated
+* performant way of getting datasets along with experiemnts count
+* API to get no of experiments
+* API to get no of experiments
+* API to get no of experiments
+* fix: merge conflict
+* merged: user information now displayed with every comment
+* user information now displayed with every comment
+* list of comment for experiment
+* merge url changes
+* comment api
+* get method experimentview updated
+* readme
+* adding exception for edge devices
+* readme updated
+* added datasetid filter for records retrieval
+* update the requirments and readme
+* API for Experiment
+* added the Experiment, Cycle Information, Traning Vision, Comments Tables with Models and Serializers
+* Data augmentation pipeline complete
+* sample images are now saved with dataset
+* added stats(median, mean, mode, lowest, highest) to dataset
+* added stats(median, mean, mode, lowest, highest) to dataset
+* added /dataset/datasetID/meta/ api end point to access the dataset meta data
+* you can now pass multiple values for same parameters
+* removed the media folder from gitignore
+* added https://xray.tracebloc.io to the CORS Whitelist
+* Debug on
+* Fix: return null if no profile image is set for an account
+* added userinfo api end-point which returns user's info based on token
+* 1). added cors policy. 2). fixed issue with profile image url. 3). user login now returns profile image, team and company name
+* Authentication included
+* added permissions for /createdataset/ api
+* updated readme
+* updated readme
+* you can now get a single dataset by ID
+* updated readme
+* users dataset can now ne retrived using the /dataset api end-point.The readme has been updated accordinly
+* updated the readme
+* bug fix: savedataset wiil throw error if it is called without called createdataset
+* 1). added a /createdataset api point for generating the dataset. (2). The savedataset now storing the dataset in the database. 3). dataset can now only be created not changed
+* added the defect grouping function
+* model\_version file included
+* model\_version file included
+* added annotation to global\_meta\_data table
+* added annotation to global\_meta\_data table
+* grouped the defects
+* bug fixed for averaging
+* fixed download file API bug
+* add temp
+* updated paths in trainingview
+* updated userdataset in TrainingView
+* code for dataset retrival and download
+* Dataset now randomly selectes data from global meta data
+* Updated upload weigths path
+* REST API completed
+* REST API completed
+* 1 bug fix: global meta data was saving to the wrong db. Added a separate app for global meta data for better management
+* 1. Multi User accounts 2. Only EdgeDevice can post to globalMetaData. 3. Added profile image to User account 4.The api-token-auth returns email, type and user\_id as well along with token 5. Renamed the Models, ViewSets and Serializer for better readability
+* restructured the User account types.  added edgeId to global meta data
+* WIP: added the /savedatset/ api end-point for saving the user data set. please see the readme for how to use it
+* WIP: UserDataset: converted the SQL query to a grouped JSON
+* WIP: UserDataset: converted the SQL query to a grouped JSON
+* WIP: UserDataset: converted the SQL query to a grouped JSON
+* WIP: UserDataset: converted the SQL query to a grouped JSON
+* WIP: UserDataset api
+* Removed the large unwanted files. app now works with two separate databases
