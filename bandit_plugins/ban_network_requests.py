@@ -4,7 +4,7 @@ from bandit.core import test_properties as test
 
 
 @test.checks("Call")
-@bandit.test_id("TBT001")  # Replace with your unique test ID
+@test.test_id("TBT001")
 def ban_network_requests(context):
     # Define a list of modules that make network requests
     network_modules = [
